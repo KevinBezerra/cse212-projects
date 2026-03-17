@@ -81,10 +81,9 @@ public void MoveRight()
     /// </summary>
     public void MoveDown()
     {
-        // Index 3 represents Down
         if (_mazeMap[(_currX, _currY)][3])
         {
-            _currY++; // Note: Increases Y assuming (1,1) is the top-left corner of the grid
+            _currY++;
         }
         else
         {
